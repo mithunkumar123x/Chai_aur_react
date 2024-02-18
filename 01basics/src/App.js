@@ -1,10 +1,10 @@
-
+import Chai from "./Chai";
 
 function App() {
   return (
- 
-   <h1>   Chai aur code || MITHUN KUMAR   </h1>
-    
+  <>
+    <Chai />
+  </>  
   );
 }
 

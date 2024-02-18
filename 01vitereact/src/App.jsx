@@ -1,13 +1,17 @@
-
-
+import Chai from "./Chai"
 
 function App() {
-
+     
+  const username = "chai aur code"
 
   return (
-       <h1>Chai aur react with vite | Mithun Kumar</h1>
-  )
-  
+      <>
+       <Chai />
+       <h1>chai aur react   /* evaluated expression :-(final outcome) -*/ {username}</h1>
+       <p>test para</p>
+       </>
+   )
+
   }
 
 export default App
